@@ -1,5 +1,5 @@
-# Nome: Isac Chaile
-# Número de Aluno: Isac Chaile
+# Nome: Isac Chaile 
+# Número de Aluno: 2101849
 
 def soma_divisores_proprios(n):
     """Calcula a soma dos divisores próprios de um número n."""
@@ -14,12 +14,12 @@ def perfeito(n):
     return soma_divisores_proprios(n) == n
 
 def multiplica_perfeitos(a, b):
-    """Calcula o produto dos números primos perfeitos entre a e b (inclusive)."""
+    """Calcula o produto dos números perfeitos entre a e b (inclusive)."""
     produto = 1
     for num in range(a, b + 1):
         if perfeito(num):
             produto *= num
-    return produto
+    return produto if produto != 1 else 1
 
 # Exemplos de uso das funções
 # Estes exemplos são apenas ilustrativos, pode testar com outros valores.
