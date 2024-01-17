@@ -1,4 +1,4 @@
-# Nome: Isac Chaile 
+# Nome: Abdul Cadre
 # Número de Aluno: 2101849
 
 def soma_divisores_proprios(n):
