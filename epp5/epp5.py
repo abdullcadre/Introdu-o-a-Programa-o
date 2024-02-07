@@ -1,6 +1,3 @@
-# Nome: Isac Chaile
-# Número de Aluno: 2101849
-
 def balanco_topico(topico):
     """
     Esta função recursiva recebe um tópico e retorna a soma do valor total de todas as transações
